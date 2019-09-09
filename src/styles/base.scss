@@ -1,0 +1,19 @@
+body {
+  background-color: $white;
+  color: $black;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -5.9rem;
+  visibility: hidden;
+
+  @include media-breakpoint-down(sm) {
+    top: -11rem;
+  }
+}
